@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.navi-x-fr"
        name="Navi-X-FR"
@@ -15,3 +16,22 @@
     <description lang="en">Media browser</description>
   </extension>
 </addon>
+=======
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.navi-x"
+       name="Navi-X-FR"
+       version="3.7.8"
+       provider-name="Navi-X team">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>28764</minversion>
+    <summary lang="fr">Navigateur Multimedia</summary>
+    <description lang="fr">Navigateur Multimedia traduit de Navi-X</description>
+  </extension>
+</addon>
+>>>>>>> e4fd93187891146d1997796c5b3bbbcdfc95001b
